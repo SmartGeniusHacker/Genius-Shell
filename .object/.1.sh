@@ -13,4 +13,4 @@ echo ""
 cd ~/Genius-Shell/.object
 echo -e '\e[1;96m'
 read -p '  Type Shell Name ❯ ' name
-sed -e "s/\genius-shell/$name/g" .genius-shell.zsh-theme > $HOME/.oh-my-zsh/themes/genius-shell.zsh-theme
+sed -e "s/\Genius/$name/g" .genius-shell.zsh-theme > $HOME/.oh-my-zsh/themes/genius-shell.zsh-theme
