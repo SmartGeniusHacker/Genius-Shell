@@ -13,8 +13,8 @@ echo -e " \e[91m                                                  / __ \    / __
 echo -e " \e[96m                                                 / /  \ \  ( (___   " 
 echo -e " \e[96m                                                ( ()  () )  \___ \  " 
 echo -e " \e[1;91m Developer:\e[96m \e[100;97mShivam Kumar\e[0;31m                  ( ()  () )      ) )" 
-echo -e " \e[1;91m Github\e[96m /\e[1;93m Smart Genius Hacker                      \ \__/ /   ___/ /"  
-echo -e " \e[1;91m Channel:\e[1;96m /\e[1;92m smart-genius-tech                     \____/   /____/"    
+echo -e " \e[1;91m Github\e[96m /\e[1;93m Smart Genius Hacker                        \ \__/ /   ___/ /"  
+echo -e " \e[1;91m Channel:\e[1;96m /\e[1;92m Smart Genius Hacker                     \____/   /____/"    
 echo ""
 
 banner ( ) {
