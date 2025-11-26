@@ -51,7 +51,7 @@ banner ( ) {
                                                          cp -r .colors.properties ~/.termux/colors.properties
                                                          cp -r .termux.properties ~/.termux/termux.properties
                                                          clear
-                                                         cd ~/Genius-Shell ; bash os.sh
+                                                         cd ~/Genius-Shell ; bash Genius-Shell.sh
                                                          termux-open-url genius.me
                                                          
                                                          }
@@ -59,41 +59,41 @@ banner ( ) {
                                                                                rm -rf ~/.zshrc
                                                                                git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
                                                                                cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
-                                                                               cd ~/Genius-Shell ; bash os.sh
+                                                                               cd ~/Genius-Shell ; bash Genius-Shell.sh
                                                                                 }
                                                                                3line() {
                                                                                                  pkg install zsh
                                                                                                  chsh -s zsh
-                                                                                                 cd ~/Genius-Shell ; bash os.sh
+                                                                                                 cd ~/Genius-Shell ; bash Genius-Shell.sh
                                                                                                   }
                                                                                                    4line() {
                                                                                                                          chsh -s bash
-                                                                                                                         cd  ~/Genius-Shell ; bash os.sh
+                                                                                                                         cd  ~/Genius-Shell ; bash Genius-Shell.sh
                                                                                                                          }
                                                                                                                          5line() {
                                                                                                                                               rm -rf ~/.zshrc
                                                                                                                                               cd ~/Genius-Shell/.object
                                                                                                                                               bash  .2.sh
-                                                                                                                                              clear ; cd ~/Genius-Shell ; bash os.sh
+                                                                                                                                              clear ; cd ~/Genius-Shell ; bash Genius-Shell.sh
                                                                                                                                                   }
                                                                                                                                                  
                                                                                                                                                 6line() {
                                                                                                                                                                          cd ~/Genius-Shell/.object
                                                                                                                                                                          bash .1.sh
-                                                                                                                                                                         clear ; cd ~/Genius-Shell ; bash os.sh
+                                                                                                                                                                         clear ; cd ~/Genius-Shell ; bash Genius-Shell.sh
                                                                                                                                                                        }
                                                                                                                                                                        7line() {
                                                                                                                                                                                                                     cd ~/Genius-Shell/.object
                                                                                                                                                                                                                     rm -rf ~/.zshrc
                                                                                                                                                                                                                     chsh -s zsh
                                                                                                                                                                                                                     bash .3.sh
-                                                                                                                                                                                                                    clear ; cd ~/Genius-Shell ; bash os.sh
+                                                                                                                                                                                                                    clear ; cd ~/Genius-Shell ; bash Genius-Shell.sh
                                                                                                                                                                                                                      }
                                                                                                                                                                                                                      8line() {
                                                                                                                                                                                                                                   rm -rf ~/Genius-Shell
                                                                                                                                                                                                                                   cd
                                                                                                                                                                                                                                   git clone https://github.com/SmartGeniusHacker/Genius-Shell.git
-                                                                                                                                                                                                                                  cd ~/Genius-Shell ; bash os.sh
+                                                                                                                                                                                                                                  cd ~/Genius-Shell ; bash Genius-Shell.sh
                                                                                                                                                                                                                                   }
     
                                  selection () {
